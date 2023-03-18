@@ -1,0 +1,13 @@
+:root {
+  background-color: #242424;
+  width: 100vw;
+}
+
+.editable-cell-value-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.editable-cell-value-wrap::before{
+  content: "\200B";
+}
